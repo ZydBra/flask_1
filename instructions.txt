@@ -1,0 +1,12 @@
+<navigate to your projects>
+git clone <url from github>
+cd <project_name>
+python3 -m venv <virtual_environment_name>
+<open project <project|_name> directory with your IDE (Pycharm)>
+
+pip freeze > requirements.txt
+
+(git status)
+git add .
+git commit -m "comment"
+git push
